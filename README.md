@@ -1,5 +1,5 @@
 # C-GlitchCraft
-🚀 Mastering C: Unleash your coding prowess with these killer C language assignments from university. 💻💡 #CodeNinja
+🚀 Mastering C: Unleash your coding prowess with these killer C language assignments from my university. 💻💡 #CodeNinja
 
 Welcome to my C Language Assignments Repository!
 
