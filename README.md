@@ -25,7 +25,6 @@ I've structured the repository to make it easy to navigate and locate specific a
   - **`Simple_Arithmetics/`**: Problems involving basic arithmetic operations.
   - **`Loops/`**: Problems specifically focused on loop structures.
   - **`Arrays/`**: Practice problems related to arrays.
-  - **`Functions/`**: Exercises emphasizing function implementation.
   - **`Pointers/`**: Problems involving pointers and memory management, etc.
 - **`Projects/`**: Larger-scale projects implemented in C, each in its separate folder.
 
