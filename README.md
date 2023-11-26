@@ -20,6 +20,7 @@ I've structured the repository to make it easy to navigate and locate specific a
 ## Folder Structure
 
 - **`Assignments/`**: Contains the code and documentation for Assignment 1.
+- **`LeetCode/`**: Folder dedicated to LeetCode problems.
 - **`Practice_Problems/`**: Includes multiple sub-folders with categorized practice problems.
   - **`Simple_Arithmetics/`**: Problems involving basic arithmetic operations.
   - **`Loops/`**: Problems specifically focused on loop structures.
