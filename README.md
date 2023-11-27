@@ -2,7 +2,7 @@
 
 🚀 C Language Practice Problems and Assignments Repository 💻💡 #CodeNinja
 
-Welcome to my C language practice repository! Here, you'll find a collection of practice problems, assignments, and projects related to C programming that I've completed during my time at [Your University].
+Welcome to my C language practice repository! Here, you'll find a collection of practice problems, assignments, and projects related to C programming that I've completed during my time at NUCES.
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@ Welcome to my C language practice repository! Here, you'll find a collection of 
 
 ## Introduction
 
-This repository houses various C programming practice problems and assignments that I've tackled as part of my coursework at [Your University]. The exercises cover fundamental concepts, algorithms, data structures, and more.
+This repository houses various C programming practice problems and assignments that I've tackled as part of my coursework at NUCES. The exercises cover fundamental concepts, algorithms, data structures, and more.
 
 I've structured the repository to make it easy to navigate and locate specific assignments or practice sets.
 
