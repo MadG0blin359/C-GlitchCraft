@@ -35,7 +35,7 @@ Feel free to explore these folders to delve into specific topics or assignments.
 
 ### Running the Code
 
-1. **Clone the Repository**: `git clone https://github.com/your_username/C-Practice`
+1. **Clone the Repository**: `git clone https://github.com/MadG0blin359/C-Practice`
 2. **Navigate to a Specific Folder**: `cd Folder_Name`
 3. **Compile the Code**: Use your preferred C compiler.
 
