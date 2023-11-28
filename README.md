@@ -19,15 +19,15 @@ I've structured the repository to make it easy to navigate and locate specific a
 
 ## Folder Structure
 
-- **`Assignments/`**: Contains the code and documentation for Assignment 1.
-- **`LeetCode/`**: Folder dedicated to LeetCode problems.
-- **`Practice_Problems/`**: Includes multiple sub-folders with categorized practice problems.
+- **`Assignments/`**: Archive - contains the code and documentation for Assignments.
+- **`LeetCode/`**: Vault - dedicated to LeetCode problems.
+- **`Practice_Problems/`**: Code Stash - includes multiple sub-folders with categorized practice problems.
   - **`Simple_Arithmetics/`**: Problems involving basic arithmetic operations.
   - **`Loops/`**: Problems specifically focused on loop structures.
   - **`Patterns/`**: Problems specifically focused on patterns/designs.
   - **`Arrays/`**: Practice problems related to arrays.
   - **`Pointers/`**: Problems involving pointers and memory management, etc.
-- **`Projects/`**: Larger-scale projects implemented in C, each in its separate folder.
+- **`Projects/`**: Innovation Hub - larger-scale projects implemented in C, each in its separate folder.
 
 Feel free to explore these folders to delve into specific topics or assignments.
 
