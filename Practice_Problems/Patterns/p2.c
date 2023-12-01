@@ -3,10 +3,10 @@
 // Function to display the pattern
 int displayPattern(char symbol) {
 
-	// Loops to display the pattern of the symbol
-	for (int i = 5; i >= 1; i--) {
+	// Loop to display upper half of the pattern of the user chosen symbol
+	for (int i = 5; i >= 1; i--) {			// Number of columns
 		
-		for (int j = 5; j >= i; j--) {
+		for (int j = 5; j >= i; j--) {		// Number of symbols in each row
 			
 			printf("%c", symbol);
 		
@@ -16,9 +16,10 @@ int displayPattern(char symbol) {
 	
 	}
 	
-	for (int i = 4; i >= 1; i--) {
+	// Loop to display lower half of the pattern of the user chosen symbol
+	for (int i = 4; i >= 1; i--) {			// Number of columns
 		
-		for (int j = 1; j <= i; j++) {
+		for (int j = 1; j <= i; j++) {		// Number of symbols in each row
 				
 			printf("%c", symbol);
 		
@@ -32,12 +33,12 @@ int displayPattern(char symbol) {
 
 int main() {
 	
-	// Declare variable to store user input
+	// Variable to store user input
 	char symbol;
 	
-	// Prompt the user to enter the symbol
-	printf("Enter symbol ");
-	scanf(" %c", &symbol);
+	// Prompt the user to enter any symbol
+	printf("Enter symbol: ");
+	scanf("%c", &symbol);
 
 	printf("\n");
 	
