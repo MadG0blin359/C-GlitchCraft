@@ -2,9 +2,14 @@
 
 void main() {
 	long choice, term, cube;
+	choice = 0;		// Variable to store user input
+	term = 0;		// Variable to store user input
+	cube = 0;		// Variable to store calculated result
 	
+	// Loop for multiple operations
 	for (;;) {
 		
+		// Display menu
 		printf("\n------------------------------------------------------");
 		
 		printf("\n\n\t-----Cube Cube Cube-----\n");
@@ -14,18 +19,22 @@ void main() {
 		
 		printf("\n------------------------------------------------------");
 		
+		// Condition to exit the program
 		if (choice == 0) {
 			printf("\n\n\'Program Ended\'\n\n");
 			break;
 		}
 		
+		// Verify the user input for menu choice
 		if (choice < 0 || choice > 2) {
 			printf("\n\nInvalid Input!\n");
 		}
 		
+		// Perform calculations based on the user input
 		else {
 			switch (choice) {
 			
+			// Calculate Cube of a single digit
 			case 1:
 				printf("\n\n\t-----Calculating Cube Of a Number-----\n");
 				printf("Enter the number to calculate the cube: ");
@@ -35,6 +44,7 @@ void main() {
 				printf("The cube of \'%ld\' is \'%ld\'\n", term, cube);
 				break;
 			
+			// Calculate cube upto an integer
 			case 2:
 				printf("\n\t-----Calculating Cubes Upto an Integer-----\n");
 				printf("Enter the term to calculate the cube upto it: ");
