@@ -10,6 +10,7 @@ Welcome to my C language practice repository! Here, you'll find a collection of 
 - [Folder Structure](#folder-structure)
 - [How to Use](#how-to-use)
 - [Contributing](#contributing)
+- [License](#license)
 
 ## Introduction
 
@@ -58,3 +59,7 @@ After navigating to the specific folder containing the compiled code, execute th
 ## Contributing
 
 If you encounter any issues, have suggestions, or wish to contribute additional practice problems, please feel free to create a pull request or open an issue. Contributions are immensely appreciated!
+
+## License
+
+This repository is licensed under the [MIT License](https://github.com/MadG0blin359/C-GlitchCraft/blob/main/LICENSE).
