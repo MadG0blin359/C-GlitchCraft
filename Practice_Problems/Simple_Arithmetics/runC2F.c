@@ -13,6 +13,7 @@ int main() {
 	// Formula to perform the conversion
 	F = (9.0/5.0)*C+32;
 	
+	// Display the converted result
 	printf("Temperature in Fahrenheit = %g\n", F);
 	return 0;
 }
