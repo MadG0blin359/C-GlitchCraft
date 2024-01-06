@@ -1,5 +1,0 @@
-test_data1		test_data2
-test_data3		test_data4
-test_data5		test_data6
-test_data7		test_data8
-test_data9		test_data10
