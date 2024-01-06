@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 struct players {
+	// Variables to store the player data
 	float distance;
 	int minute;
 	int second;
@@ -12,6 +13,7 @@ void main() {
 	printf("\n\t\tWho Won?");
 	printf("\n\t\t--------\n");
 	
+	// Prompt the user to enter each of the required data for both players to calculate the winner
 	printf("\n--Enter the distance covered by Player 1 : ");
 	scanf("%f", &p1.distance);
 
@@ -32,11 +34,13 @@ void main() {
 	
 	float time1, time2;
 	
+	// Calculate the time it took the players to finish the race
 	time1 = (p1.minute*60 + p1.second) / p1.distance;
 	time2 = (p2.minute*60 + p2.second) / p2.distance;
 	
 	printf("\nThe winner is...\n");
 	
+	// Determine the winner and display the final result
 	if (time1 < time2) {
 		printf("\n\tPlayer 1!\n--Distance : %g\n--Minutes  : %d\n--Second   : %d\n", p1.distance, p1.minute, p1.second);
 	}
