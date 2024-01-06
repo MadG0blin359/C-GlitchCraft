@@ -23,13 +23,13 @@ I've structured the repository to make it easy to navigate and locate specific a
 - **`Assignments/`**: Archive - contains the code and documentation for Assignments.
 - **`Games/`**: Arcade - collection of gaming-related projects or resources.
 - **`LeetCode/`**: Vault - dedicated to LeetCode problems.
-- **`Practice Problems/`**: Code Stash - includes multiple sub-folders with categorized practice problems.
+- **`PracticeProblems/`**: Code Stash - includes multiple sub-folders with categorized practice problems.
   - **`Arrays/`**: Array Manipulation - Practice problems related to arrays.
-  - **`File Handling/`**: File Ops - exercises and programs focused on file handling and manipulation.
+  - **`FileHandling/`**: File Ops - exercises and programs focused on file handling and manipulation.
   - **`Loops/`**: Loop Nest - Problems specifically focused on loop structures.
   - **`Patterns/`**: Looping Through Patterns - Problems specifically focused on patterns/designs.
   - **`Pointers/`**: Havoc - Problems involving pointers and memory management, etc.
-  - **`Simple Arithmetics/`**: Math Mingle - Problems involving basic arithmetic operations.
+  - **`SimpleArithmetics/`**: Math Mingle - Problems involving basic arithmetic operations.
   - **`Strings/`**: String Whiz - includes exercises and code related to manipulating strings.
   - **`Structures/`**: Structurology - contains code and resources related to various data structures.
 - **`Projects/`**: Innovation Hub - larger-scale projects implemented in C, each in its separate folder.
