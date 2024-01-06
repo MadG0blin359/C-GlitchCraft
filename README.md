@@ -26,10 +26,10 @@ I've structured the repository to make it easy to navigate and locate specific a
 - **`Practice Problems/`**: Code Stash - includes multiple sub-folders with categorized practice problems.
   - **`Arrays/`**: Array Manipulation - Practice problems related to arrays.
   - **`File Handling/`**: File Ops - exercises and programs focused on file handling and manipulation.
-  - **`Loops/`**: Problems specifically focused on loop structures.
-  - **`Patterns/`**: Problems specifically focused on patterns/designs.
-  - **`Pointers/`**: Problems involving pointers and memory management, etc.
-  - **`Simple Arithmetics/`**: Problems involving basic arithmetic operations.
+  - **`Loops/`**: Loop Nest - Problems specifically focused on loop structures.
+  - **`Patterns/`**: Looping Through Patterns - Problems specifically focused on patterns/designs.
+  - **`Pointers/`**: Havoc - Problems involving pointers and memory management, etc.
+  - **`Simple Arithmetics/`**: Math Mingle - Problems involving basic arithmetic operations.
   - **`Strings/`**: String Whiz - includes exercises and code related to manipulating strings.
   - **`Structures/`**: Structurology - contains code and resources related to various data structures.
 - **`Projects/`**: Innovation Hub - larger-scale projects implemented in C, each in its separate folder.
