@@ -6,7 +6,7 @@ int main() {
 
 	// Sum of the series 1 + 1/4 + 1/8 + 1/12 + ...1/100 
 	do {
-		sum += (float)1.0/denominator; 
+		sum += (float)1/denominator; 
 		denominator += 4;
 	}
 	

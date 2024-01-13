@@ -10,6 +10,7 @@ int main () {
 		sum += odd;	
 		odd += 2;
 		
+		// Display the calculated sum at each iteration
 		printf("%d ", sum);
 		
 	}
