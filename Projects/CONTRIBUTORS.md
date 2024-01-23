@@ -6,7 +6,7 @@ This repository contains the collaborative efforts of Shawaiz Shahid and Waleed 
 
 ## Project Details
 
-- **GUI Status:** The Expense Tracker project is designed to run without a graphical user interface (GUI). It operates in a non-GUI environment, focusing on simplicity and efficiency.
+- **GUI Status:** The Expense Tracker project is designed to run without a graphical user interface (GUI). It operates in a non-GUI environment, such as terminal or command prompt, focusing on simplicity and efficiency.
 
 ## Collaborators
 
