@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the collaborative efforts of Shawaiz Shahid and Waleed Shaikh on the "Expensly" project. The purpose of this project is to track and manage expenses efficiently.
+This project contains the collaborative efforts of Shawaiz Shahid and Waleed Shaikh on the "Expensly" project. The purpose of this project is to track and manage expenses efficiently.
 
 ## Project Details
 
