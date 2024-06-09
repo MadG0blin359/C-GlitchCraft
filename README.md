@@ -22,7 +22,6 @@ I've structured the repository to make it easy to navigate and locate specific a
 
 - **`Assignments/`**: Archive - contains the code and documentation for Assignments.
 - **`Games/`**: Arcade - collection of gaming-related projects or resources.
-- **`LeetCode/`**: Vault - dedicated to LeetCode problems.
 - **`PracticeProblems/`**: Code Stash - includes multiple sub-folders with categorized practice problems.
   - **`Arrays/`**: Array Manipulation - Practice problems related to arrays.
   - **`FileHandling/`**: File Ops - exercises and programs focused on file handling and manipulation.
