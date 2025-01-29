@@ -46,7 +46,7 @@ Make sure you have the following installed on your system:
    ```bash
    cd C-GlitchCraft/Projects
 
-3. **Compile the C Code:**
+3. **Compile the Source File:**
 
    ```bash
    gcc Expensly.c -o Expensly
