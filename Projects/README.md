@@ -1,4 +1,4 @@
-# Expensly : An Expense Tracker
+# Expensly : Master Your Finances
 
 ## Overview
 
