@@ -1,4 +1,4 @@
-# Expense Tracker Project
+# Expensly : Master Your Finances
 
 ## Overview
 
@@ -6,7 +6,7 @@ This project contains the collaborative efforts of Shawaiz Shahid and Waleed Sha
 
 ## Project Details
 
-- **GUI Status:** The Expense Tracker project is designed to run without a graphical user interface (GUI). It operates in a non-GUI environment, such as terminal or command prompt, focusing on simplicity and efficiency.
+- **GUI Status:** The Expense Tracker project is designed to run without a graphical user interface (GUI). It operates in a non-GUI environment, such as a terminal or command prompt, focusing on simplicity and efficiency.
 
 ## Collaborators
 
@@ -46,7 +46,7 @@ Make sure you have the following installed on your system:
    ```bash
    cd C-GlitchCraft/Projects
 
-3. **Compile the C Code:**
+3. **Compile the Source File:**
 
    ```bash
    gcc Expensly.c -o Expensly
