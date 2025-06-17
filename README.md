@@ -25,9 +25,10 @@ I've structured the repository to make it easy to navigate and locate specific a
 - **`PracticeProblems/`**: Code Stash - includes multiple sub-folders with categorized practice problems.
   - **`Arrays/`**: Array Manipulation - Practice problems related to arrays.
   - **`FileHandling/`**: File Ops - exercises and programs focused on file handling and manipulation.
-  - **`Loops/`**: Loop Nest - Problems specifically focused on loop structures.
-  - **`Patterns/`**: Looping Through Patterns - Problems specifically focused on patterns/designs.
+  - **`Loops/`**: Loop Nest - problems specifically focused on loop structures.
+  - **`Patterns/`**: Looping Through Patterns - problems specifically focused on patterns/designs.
   - **`Pointers/`**: Havoc - Problems involving pointers and memory management, etc.
+  - **`Process Management/`**: Race - includes forks, multi-threading, scheduling, locks, semaphores, pipes, and shared memory, etc.
   - **`SimpleArithmetics/`**: Math Mingle - Problems involving basic arithmetic operations.
   - **`Strings/`**: String Whiz - includes exercises and code related to manipulating strings.
   - **`Structures/`**: Structurology - contains code and resources related to various data structures.
