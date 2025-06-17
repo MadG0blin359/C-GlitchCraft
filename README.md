@@ -28,7 +28,7 @@ I've structured the repository to make it easy to navigate and locate specific a
   - **`Loops/`**: Loop Nest - problems specifically focused on loop structures.
   - **`Patterns/`**: Looping Through Patterns - problems specifically focused on patterns/designs.
   - **`Pointers/`**: Havoc - Problems involving pointers and memory management, etc.
-  - **`Process Management/`**: Race - includes forks, multi-threading, scheduling, locks, semaphores, pipes, and shared memory, etc.
+  - **`Process Management/`**: Race - includes forks, multi-threading, scheduling, locks, semaphores, pipes, shared memory, fifo, and system calls, etc.
   - **`SimpleArithmetics/`**: Math Mingle - Problems involving basic arithmetic operations.
   - **`Strings/`**: String Whiz - includes exercises and code related to manipulating strings.
   - **`Structures/`**: Structurology - contains code and resources related to various data structures.
