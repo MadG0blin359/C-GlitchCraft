@@ -15,12 +15,10 @@ int main() {
     strcpy(shm, "Hello");
     printf("Process 1: Wrote 'Hello' and waiting...\n");
     sleep(2);
-
     
     strcpy(shm, " your name");
     printf("Process 2: Wrote 'your name'\n");
 
-    
     strcpy(shm, " rollnumber");
     printf("Process 3: Wrote 'rollnumber'\n");
 
