@@ -1,52 +1,60 @@
-#include <stdio.h>
-#include <unistd.h>
-#include <stdlib.h>
-#include <sys/types.h>
-#include <sys/wait.h>
+#include <stdio.h>    // For printf, scanf, perror
+#include <unistd.h>   // For pipe, fork, read, write, close, getpid
+#include <stdlib.h>   // For exit
+#include <sys/types.h> // For pid_t
+#include <sys/wait.h> // For wait
 
 int main() {
-    int buffer[5];
-    int n, fd[2];
-    pid_t pid;
+    int buffer[5];    // Buffer to hold 5 integers
+    int n, fd[2];     // n: bytes read/written, fd: pipe file descriptors
+    pid_t pid;        // Process ID
 
+    // Create a pipe
     if (pipe(fd) == -1) {
         perror("Pipe Failed!\n");
         return 1;
     }
 
+    // Create child process
     if ((pid = fork()) < 0) {
         perror("Bad Fork!\n");
         exit(1);
-    } else if (pid > 0) {
-        close(fd[0]);
+    } else if (pid > 0) { // Parent process
+        close(fd[0]); // Close read end of pipe in parent
 
         printf("Enter 5 integers:\n");
+        // Read 5 integers from stdin into buffer
         for (int i = 0; i < 5; i++) {
             scanf("%d", &buffer[i]);
         }
 
-        write(1, buffer, n);
-        write(fd[1], buffer, sizeof(buffer));
-        close(fd[1]);
+        // This line is potentially incorrect; 'n' is uninitialized here.
+        // If the intention was to print the input, it should use sizeof(buffer).
+        write(1, buffer, n); // Write buffer content to stdout (might be garbage as 'n' is undefined)
 
-        wait(NULL);
+        write(fd[1], buffer, sizeof(buffer)); // Write buffer (5 integers) to pipe
+        close(fd[1]); // Close write end of pipe in parent
+
+        wait(NULL); // Wait for child to terminate
         printf("%d: Parent Terminating!\n", getpid());
-    } else {
-        close(fd[1]);
+    } else { // Child process
+        close(fd[1]); // Close write end of pipe in child
 
         printf("%d: Child Process Recieving Data...\n", getpid());
-        n = read(fd[0], buffer, sizeof(buffer));
-        close(fd[0]);
+        // Read integers from pipe into buffer
+        n = read(fd[0], buffer, sizeof(buffer)); 
+        close(fd[0]); // Close read end of pipe in child
 
+        // Multiply each integer in the buffer by 5
         for (int i = 0; i < 5; i++) {
             buffer[i] *= 5;
         }
 
-        write(1, buffer, n);
+        write(1, buffer, n); // Write updated buffer content to stdout
         printf("Total bytes recieved : %d\n", n);
         printf("Child Terminating!\n");
-        exit(0);
+        exit(0); // Child exits
     }
 
-    return 0;
+    return 0; // Parent exits
 }
