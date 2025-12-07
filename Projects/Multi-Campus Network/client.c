@@ -1,11 +1,3 @@
-// client.c - Campus Client for Semester Project
-// Satisfies Checklist Items:
-// [x] Connection Setup (TCP to Server)
-// [x] Hybrid Protocol (TCP + Background UDP Heartbeat)
-// [x] User Interface (Console Menu)
-// [x] Message Reception (TCP)
-// [x] Broadcast Listener (UDP)
-
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
