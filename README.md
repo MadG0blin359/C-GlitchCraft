@@ -25,6 +25,7 @@ I've structured the repository to make it easy to navigate and locate specific a
 - **`PracticeProblems/`**: Code Stash - includes multiple sub-folders with categorized practice problems.
   - **`Arrays/`**: Array Manipulation - Practice problems related to arrays.
   - **`FileHandling/`**: File Ops - exercises and programs focused on file handling and manipulation.
+  - **`Networking/`**: Protocol Pit - Collection of low-level network protocols and socket-based communication projects.
   - **`Loops/`**: Loop Nest - problems specifically focused on loop structures.
   - **`Patterns/`**: Looping Through Patterns - problems specifically focused on patterns/designs.
   - **`Pointers/`**: Havoc - Problems involving pointers and memory management, etc.
@@ -52,8 +53,9 @@ gcc -o output_filename source_code.c
 ### Running the Compiled Code
 
 After navigating to the specific folder containing the compiled code, execute the program by running the following command in the terminal:
-   ```bash
-  ./output_filename
+
+```bash
+./output_filename
 ```
 
 ### Exploring Assignments
